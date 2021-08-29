@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore 5 UTF-8 support", "EFCore 5 UTF-8 support\EFCore 5 UTF-8 support.csproj", "{75C87F05-BFB5-49ED-883A-2EAA3305C7CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75C87F05-BFB5-49ED-883A-2EAA3305C7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C87F05-BFB5-49ED-883A-2EAA3305C7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C87F05-BFB5-49ED-883A-2EAA3305C7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C87F05-BFB5-49ED-883A-2EAA3305C7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C1E346-F209-4B37-8327-F897FDC26CB0}
+	EndGlobalSection
+EndGlobal
