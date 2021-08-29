@@ -23,7 +23,7 @@ namespace EFCore_5_UTF_8_support
 			await context.SaveChangesAsync();
 
 			// read back
-			var myTableCheck = (await context.MyTable.ToArrayAsync()).FirstOrDefault();
+			var myTableCheck = await context.MyTable.OrderBy(o => o.Id).LastOrDefaultAsync();
 			if (myTableCheck.Param != myTable.Param)
 			{
 				throw new Exception($"we found {myTableCheck.Param} but it should be {myTable.Param}");
